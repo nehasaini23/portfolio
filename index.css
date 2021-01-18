@@ -1,0 +1,185 @@
+header{
+    /* box-shadow: 4px 4px 4px rgb(212, 212, 210); */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.shadowhead{
+    font-size: 4rem;
+    color: rgb(250, 246, 246);
+    margin-left: 3rem;
+    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Potta One', cursive;
+}
+.head{
+font-size: 3rem;
+margin-top: 1rem;
+text-align: center;
+margin-top: -2rem;
+font-family: 'Yusei Magic', sans-serif;
+color:rgb(54, 54, 54);
+}
+.description{
+    font-size: 1.75rem;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    color: rgb(255, 187, 0);
+    margin-left: 1rem;
+}
+.con{
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(54, 54, 54)
+}
+.condata{
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(122, 120, 120);
+    margin-top: -2rem;
+}
+.box{
+    height: 16rem;
+    border: 4px solid white;
+    width: 12rem;
+    /* margin-top: -15rem; */
+    margin-left: -2rem;
+    /* outline: 4px solid white;  */
+}
+.box1{
+    height: 16rem;
+    border: 4px solid rgb(54, 54, 54);
+    width: 12rem;
+    /* margin-top: 1rem; */
+    margin-left: -10rem;
+    /* outline: 4px solid rgb(54, 54, 54);  */
+    margin-bottom: 4rem;
+}
+.topic{
+    color: rgb(54, 54, 54);
+    font-family: 'Yusei Magic', sans-serif;
+    float: left;
+    writing-mode: vertical-rl;
+    font-size: 1rem;
+    margin-left: -1rem;
+}
+p{
+    font-size: 1.25rem;
+    /* margin-top: 3rem!important; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(54, 54, 54);
+    margin-left: -0.5rem;
+}
+.skillsbox{
+    background-color: white;
+    width: 50%;
+    height: 15rem;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+
+}
+
+.toptext{
+    /* font-size: 2rem; */
+    /* float: left; */
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 3.5rem;
+}
+.boxes{
+    height: 4rem;
+    width: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.btnn{
+    margin-top:1rem;
+    background-color:rgb(255, 187, 0);
+    height:3rem;
+    border: 1px solid rgb(255, 187, 0);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    width: 12rem;
+    color:white;
+    /* font-weight: bold; */
+    font-family: 'Yusei Magic', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: underline;
+}
+.btnn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btnn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btnn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btnn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .btnn:active,.btnn:focus{
+      /* border: 0.5em solid rgb(255, 187, 0); */
+        outline-color:   rgb(255, 208, 0);
+        border-radius: 5px;
+
+  }
+
+  .typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; 
+    /* letter-spacing: .15em;  */
+    animation: 
+      typing 3s steps(17, end),
+      blink-caret .75s step-end infinite;
+    margin-top: -2rem;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 78% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  /*  */
+  .navbar-nav a:hover{
+    border-bottom: 2px solid rgb(255, 187, 0);
+  }
+  a.navv-link active{
+    border-bottom: 2px solid rgb(255, 187, 0);
+  }
+
+  
+  
+  
+  
